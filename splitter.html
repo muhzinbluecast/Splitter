@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splitter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./splitter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./assets/logo.svg" alt="">
+        </div>
+        <main class="content">
+            <div class="left-content">
+                <div class="bill">
+                    <label for="">Bill</label>
+                    <div class="input-box">
+                        <input type="text" placeholder="0">
+                        <span class="unit">
+                            <img src="./assets/icon-dollar.svg" alt="">
+                        </span>
+                    </div>
+                   
+                </div>
+                <div class="selected-tip">
+                    <label for="">Selected Tip %</label>
+                    <div class="tips">
+                        <button class="tip">5%</button>
+                        <button class="tip">10%</button>
+                        <button class="tip">15%</button>
+                        <button class="tip">25%</button>
+                        <button class="tip">50%</button>
+                        <button class="custom-tip">Custom</button>
+                    </div>
+                </div>
+                <div class="number">
+                    <label for="">Number of peoples</label>
+                    <div class="input-box">
+                        <input type="text" placeholder="0">
+                        <span class="unit">
+                            <img src="./assets/icon-person.svg" alt="">
+                        </span>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="tip-amount">
+                    <div class="tip-amount-text">
+                        <h4>Tip Amount</h4>
+                        <p>/Person</p>
+                    </div>
+                    <div class="tip-amount-number">
+                        <h2>
+                            $0.00
+                        </h2>
+                    </div>
+                </div>
+                <div class="total-amount">
+                    <div class="total-amount-text">
+                        <h4>Total</h4>
+                        <p>/Person</p>
+                    </div>
+                    <div class="total-amount-number">
+                        <h2>$0.00</h2>
+                    </div>
+                </div>
+                <div class="reset">
+                    <button>RESET</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    
+</body>
+</html>
